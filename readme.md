@@ -27,7 +27,7 @@ This is a Laravel project Starter with Vue js. Where authorize admin. Any applic
 
 It's just like any other Laravel project. Basically here is how you use it for yourself. (it's not completed yet)
 
-1. Clone the repo git clone https://github.com/Hujjat/laravStart.git
+1. Clone the repo git clone https://github.com/monjuAflame/Laravel-Start.git
 2. Run composer install
 3. Save as the .env.example to .env and set your database information
 4. Run php artisan key:generate to generate the app key
