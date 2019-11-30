@@ -191,6 +191,10 @@ background-size: cover;padding: 30px 45px;">
             return photo;
           },
           updateProfile(){
+
+            if (this.form.password == '') {
+              this.form.password = undefined;
+            }
             this.$Progress.start()
             this.form.put('api/profile/')
             .then(()=>{

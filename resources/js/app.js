@@ -6,7 +6,6 @@
 
 require('./bootstrap');
 
-
 window.Vue = require('vue');
 
 //Gate js
@@ -56,7 +55,8 @@ let routes = [
   { path: '/dashboard', component: require('./components/Dashboard.vue').default },
 	{ path: '/developer', component: require('./components/Developer.vue').default },
 	{ path: '/users', component: require('./components/Users.vue').default },
-	{ path: '/profile', component: require('./components/Profile.vue').default }
+  { path: '/profile', component: require('./components/Profile.vue').default },
+	{ path: '*', component: require('./components/NotFound.vue').default }
 
 ]
 
@@ -75,11 +75,13 @@ Vue.filter('myDate', function(date) {
 	return moment(date).format('MMMM Do YYYY')
 })
 
-// Fire for load data( like laravel echo ##)
+// Fire for load data( like laravel echo ## for an event)
 
 let Fire = new Vue;
 window.Fire = Fire;
 
+//  laravel vue pagination
+Vue.component('pagination', require('laravel-vue-pagination'));
 
 // passport
 Vue.component(
@@ -96,6 +98,10 @@ Vue.component(
     'passport-personal-access-tokens',
     require('./components/passport/PersonalAccessTokens.vue').default
 );
+Vue.component(
+    'not-found',
+    require('./components/NotFound.vue').default
+);
 
 
 
@@ -106,5 +112,14 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 
 const app = new Vue({
     el: '#app',
-    router
+    router,
+    data:{
+      search: ''
+    },
+    methods:{
+      searchit: _.debounce(()=>{
+        Fire.$emit('searcing');
+      }, 2000)
+      
+    }
 });

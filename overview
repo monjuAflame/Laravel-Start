@@ -1,12 +1,21 @@
 1. create fresh laravel & Install admin lte
-2. Configure_Fontawesome_5_with_AdminLTE_3_and_Laravel_5.7
+
+2. Configure_Fontawesome_5_with_AdminLTE_3_and_Laravel
+
 3. Push_Laravel_and_Vue_Project_to_Github
+
 4. Customizing_The_AdminLTE_3_Menu_For_Laravel
+
 5. Configure_Vue_Router_to_Laravel_and_Admin_LTE_3
+
 6. Detect_Active_Menu_in_Vue_Router_and_Laravel_Plus_HTML5_History_Mode
+
 7. Custom_Color_for_Font_Awesome_Icons_and_How_Logout_Works_in_Laravel
+
 8. Customizing_User_Table_with_Profile_Photo_and_User_Type_In_Laravel
+
 9. Create_User_Managment_Component_in_Vue_and_Laravel
+
 10.  Display_Users_in_Table_and_Modal_Window_for_Creating_new_User_in_Laravel_and_Vue
 
 11. Using_VFrom_for_Back-end_Error_Handling_in_Laravel_and_Vuejs
@@ -39,8 +48,62 @@
 
 25. Correctly_Update_User_Information_with_Unique_Email_in_Database_with_Laravel_and_Vue
 
+26. Security Issues While Developing API in Laravel and Vuejs
 
+27. Installing Laravel Passport for API Auth in Laravel
 
+28. All we need is JWT for Laravel API Authentication
+
+29. Let's_Make_User_Profile_Component_for_User_In_Laravel_and_Vuejs
+
+30. Populate_Login_User_Information_in_User_Profile_with_Laravel_and_Vuejs
+
+31. What_is_Base64__How_to_Prepare_file_Upload_with_Base64_in_Javascript_Using_Laravel_and_Vuejs
+32. Submit_Base64_String_to_Server_for_Uploading_in_Laravel_and_Vuejs
+
+33. Upload_and_Convert_Base64_String_to_Image_In_PHP_and_Laravel
+
+34. Checking_File_Size_While_Uploading__Limit_to_less_than_2MB_in_Laravel_and_Vue
+
+35. Save_New_Profile_Information_with_Validation_in_Database_Laravel_and_Vue
+
+36. Proper Error Handling in Profile Page Laravel and Vuejs
+
+37. How to Delete Old Photo From Server if User Change Profile Photo in Laravel an Vue
+
+38. How to Display Profile Picture in Vuejs file and Laravel
+
+39. Different Ways to Apply Access Conltrol List for Users in Laravel
+
+40. How to Upgrade Our Laravel 5.6 to 5.7 (Basic guide)
+
+41. Update Profile Picture Instantly After Uploading in Laravel and Vuejs
+
+42. Easily Add ACL to Laravel Without Extra Tables in Database
+
+43. Limited Access to Controllers Using ACL in Laravel
+
+44. Laravel 5.7 ACL in Front-end Using Vue js
+
+45. Design_404_Page_for__Front-End_If_User_Doesn't_Have_Access
+
+46. How_User_and_Author_Can_Have_The_Same_Access_Level_in_Laravel_Front-end_and_Back-end
+
+47. Laravel_and_Vuejs_Pagination_Best_Packages
+
+48. Laravel_5.7_and_Vuejs_Ajax_Pagination
+
+49. Review_-_What_Else_We_Need_to_Add_for_Our_Laravel___Vue_App
+
+50. Vue_Router_404_Page_with_Laravel
+
+51. Re-Usable_Search_Functionality_in_Laravel_5.7_and_Vuejs_(_Ajax,_Axios_)
+
+52. Instant_Search_With_Laravel_and_Vuejs__Use_(_Debounce_)
+
+53. Print_Invoice_as_PDF_in_Laravel_using_JavaScript
+
+54. How_to_Use_Laravel___Vuejs_Starter_Template__(_Wrap-up_and_New_Series)
 
 
 
